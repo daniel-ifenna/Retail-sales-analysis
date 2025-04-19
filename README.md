@@ -3,8 +3,7 @@
 ### Date: 19th April 2025
 
 ## Objective 
-This report analyzes the weekly sales of over 45 stores to uncover trends, evaluate the impact of markdowns and holidays, and create a predictive future performance using machine learning models. 
-
+This report analyzes the weekly sales of over 45 stores to uncover trends, evaluate the impact of markdowns and holidays on weekly sales.
 ## Business Questions 
 **1. What is the overall trend in sales over time** 
 The analysis revealed a seasonal pattern in sales, with noticeable spikes during the holiday such as the Christmas period. However, a noticeable gradual decline occurs after the 1st Quarter of the year. 
