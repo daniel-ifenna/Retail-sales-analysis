@@ -18,7 +18,7 @@ The store with the highest sales is store **20**  with a total sales of **$301,3
 
 **4. How do markdowns affect weekly sales?**
 Markdowns positively influence weekly sales. First of all, in our analysis, we calculated the mean value for all markdowns based on the holiday period represented as *False* and the Non-Holiday period represented as *True*. it was discovered that **Markdown 2** and **Markdown3** have the highest mean value during Non-Holiday sales. As **Markdown1** and **Markdown5** have stronger mean values during the holidays.
-A linear regression model was built to test the correlation of each markdown to weeklysales, all have a slight positive relationship as all correlation are less than **0.1**. 
+A linear regression model was built to test the correlation of each markdown to weekly sales, all have a slight positive relationship as all correlation are less than **0.1**. 
 
 **5. Sales during the Holiday vs sales during Non-Holiday**
 The sum of weekly sales across all stores during the holiday sums up to **$505.3 Million**, and during Non-Holiday **$6.23 Billion**
@@ -26,6 +26,24 @@ The sum of weekly sales across all stores during the holiday sums up to **$505.3
 # Recommendation 
 Strategic markdowns can boost sales significantly, especially near holidays. External economic indicators alone are not strong predictors, but they add context.
 
-![Sales Dashboard](/Screenshot%202025-04-19%20143229.png)
+## Sales Forecasting Dashboard
 
-![Dowload Dasbord](https://github.com/daniel-ifenna/Retail-sales-analysis/blob/01f83789e9d0f146bc06ec70c0f64aff0d80239c/Sales%20dashboard.pbix)
+###  Dashboard Preview
+
+![Sales Dashboard](./Screenshot%202025-04-19%20143229.png)
+
+This Power BI dashboard provides a comprehensive view of weekly retail sales across different stores and departments. It highlights key performance metrics and promotional impacts to support data-driven decision-making.
+
+###  Key Features
+
+- **Weekly Sales Trends** – Track overall and department-level sales patterns over time.  
+- **Store Performance** – Compare weekly sales across various stores.  
+- **Holiday Impact** – Visualize the difference in sales during holiday and non-holiday weeks.  
+- **Markdown Analysis** – Explore how price discounts influence weekly sales.  
+- **Trend Breakdown** – Interactive visuals to identify drops and spikes in revenue.
+
+---
+
+###  Download Dashboard File
+
+[Click here to download the Power BI (.pbix) file](https://github.com/daniel-ifenna/Retail-sales-analysis/blob/01f83789e9d0f146bc06ec70c0f64aff0d80239c/Sales%20dashboard.pbix)
