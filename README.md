@@ -30,7 +30,7 @@ Strategic markdowns can boost sales significantly, especially near holidays. Ext
 
 ###  Dashboard Preview
 
-![Sales Dashboard](./Screenshot%202025-04-19%20143229.png)
+![Sales Dashboard](Screenshot%202025-04-19%20143229.png)
 
 This Power BI dashboard provides a comprehensive view of weekly retail sales across different stores and departments. It highlights key performance metrics and promotional impacts to support data-driven decision-making.
 
