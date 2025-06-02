@@ -40,7 +40,7 @@ This Power BI dashboard provides a comprehensive view of weekly retail sales acr
 
 ###  Download Dashboard File
 
-[Click here to download the Power BI (.pbix) file](https://github.com/daniel-ifenna/Retail-sales-analysis/blob/01f83789e9d0f146bc06ec70c0f64aff0d80239c/Sales%20dashboard.pbix)
+[Click here to download the Power BI (.pbix) file](Sales%20dashboard.pbix)
 
 ### Download PDF REPORT
 [Download PDF](Konga-gro%20mart%20Retail%20analysis%20(1).pdf)
