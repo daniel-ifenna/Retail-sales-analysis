@@ -1,46 +1,79 @@
-# Weekly Sales Analysis Report
-### Author: Daniel Ifenna
-### Date: 19th April 2025
+# KongaGro Mart – Retail Sales Analysis
+## Executive Summary
+This project presents a comprehensive analysis of weekly sales data across 45+ KongaGro Mart stores. Using exploratory data analysis and Power BI dashboards, it uncovers key performance drivers such as seasonality, markdown strategies, and macroeconomic factors. The goal is to equip decision-makers with data-driven insights to enhance operations, improve marketing strategies, and increase profitability.
 
-## Objective 
-This report analyzes the weekly sales of over 45 stores to identify trends and assess the impact of markdowns and holidays on weekly sales.
-## Business Questions 
-**1. What is the overall trend in sales over time** 
-The analysis revealed a seasonal pattern in sales, with noticeable spikes during the holiday such as the Christmas period. However, a noticeable gradual decline occurs after the 1st Quarter of the year. 
+### Project Objectives
+Analyze weekly sales trends, including seasonal and holiday-driven spikes
 
-**2. Identify stores with the highest and lowest sales**
-The store with the highest sales is store **20**  with a total sales of **$301,397,792** and the store with the lowest sales is **33** with a total sum of **$37,160,222**.
+Identify top and bottom-performing stores
 
-**3. How do economic factors(CPI, Unemployment, Fuel Price, Temperature) influence sales?**
-- CPI and Unemployment are negatively correlated but have a weak significance in impact on sales. meaning that the increase in either economic factor leads to a slight decline in weekly sales 
-- Fuel price is also negatively correlated, but doesn't have a strong significance in the outcome of sales. However, Temperature has a positve impact on the impact of sales. for example, stores sell more sun glasses during summer and more winter coats during winter.
+Quantify the influence of CPI, unemployment, fuel price, and temperature
 
-**4. How do markdowns affect weekly sales?**
-Markdowns positively influence weekly sales. First of all, in our analysis, we calculated the mean value for all markdowns based on the holiday period represented as *False* and the Non-Holiday period represented as *True*. it was discovered that **Markdown 2** and **Markdown3** have the highest mean value during Non-Holiday sales. As **Markdown1** and **Markdown5** have stronger mean values during the holidays.
-A linear regression model was built to test the correlation of each markdown to weekly sales, all have a slight positive relationship as all correlation are less than **0.1**. 
+Evaluate markdown performance across holiday and non-holiday periods
 
-**5. Sales during the Holiday vs sales during Non-Holiday**
-The sum of weekly sales across all stores during the holiday sums up to **$505.3 Million**, and during Non-Holiday **$6.23 Billion**
+Compare holiday versus non-holiday weekly sales
 
-# Recommendation 
-Strategic markdowns can boost sales significantly, especially near holidays. External economic indicators alone are not strong predictors, but they add context.
+Recommend strategies to optimize profitability
 
-## Sales Forecasting Dashboard
-This Power BI dashboard provides a comprehensive view of weekly retail sales across different stores and departments. It highlights key performance metrics and promotional impacts to support data-driven decision-making.
+### Key Insights
+1. Sales Trends
+Clear seasonal spikes occur around major holidays (e.g., Christmas)
 
-###  Key Features
+A gradual decline in sales is observed after Q1, suggesting the need to align promotions with consumer behavior during off-peak periods
 
-- **Weekly Sales Trends** – Track overall and department-level sales patterns over time.  
-- **Store Performance** – Compare weekly sales across various stores.  
-- **Holiday Impact** – Visualize the difference in sales during holiday and non-holiday weeks.  
-- **Markdown Analysis** – Explore how price discounts influence weekly sales.  
-- **Trend Breakdown** – Interactive visuals to identify drops and spikes in revenue.
+2. Store Performance
+Highest performing store: Store 20 – $301.4M
+
+Lowest performing store: Store 33 – $37.2M
+
+3. Economic Drivers
+CPI and unemployment are negatively correlated with sales, though weakly
+
+Fuel prices also show a negative but non-significant relationship
+
+Temperature has a modest positive influence on sales (e.g., weather-specific products)
+
+4. Markdown Effectiveness
+Markdowns have a slight positive effect on weekly sales
+
+Markdown 2 and 3 perform better during non-holiday weeks
+
+Markdown 1 and 5 show stronger effects during holidays
+
+Correlation values are all below 0.1
+
+5. Holiday vs. Non-Holiday Sales
+Holiday sales: $505.3M (7.5% of total)
+
+Non-holiday sales: $6.23B (92.5% of total)
+
+Although holidays account for fewer weeks, they generate high weekly sales volumes
+
+## Recommendations
+Use Markdown 2 and 3 during off-season periods; focus on Markdown 1 and 5 during holidays
+
+Monitor temperature trends to adjust seasonal inventory
+
+Increase inventory and marketing spend during holidays
+
+After the holidays, align inventory with seasonal demand
+
+Conduct regular store performance audits
+
+Assess staff engagement and satisfaction at underperforming locations
+
+Deliverables
+R scripts used for analysis
+
+Power BI dashboard for data exploration
+
+Summary report with actionable business insights
 
 
 
-###  Download Dashboard File
 
-[Click here to download the Power BI (.pbix) file](Sales%20dashboard.pbix)
+![](/Screenshot%202025-07-06%20191450.png)
 
-### Download PDF REPORT
-[Download PDF](Konga-gro%20mart%20Retail%20analysis%20(1).pdf)
+- [Click here to download the Power BI (.pbix) file](Sales%20dashboard.pbix)
+
+- [Download report](Konga-gro%20mart%20Retail%20analysis%20(1).pdf)
