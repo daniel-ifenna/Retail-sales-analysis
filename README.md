@@ -64,9 +64,9 @@ This project provides an in-depth analysis of weekly sales data across 45+ Konga
 ---
 
 ## Repository Contents  
-- `/dashboard preview`: ![](/Screenshot%202025-07-06%20191450.png) 
+- `/dashboard preview`:![](Screenshot%202025-07-06%20191450.png) 
 - `/scripts`: R scripts used for preprocessing and analysis  
-- `/dashboard`: Power BI `.pbix` file  
+- `/dashboard`:  [Click here to download the Power BI (.pbix) file](DASHBOARD.pbix)
 - `KongaGro_Report.md`: Final analysis summary (this file)
 
 
@@ -75,6 +75,6 @@ This project provides an in-depth analysis of weekly sales data across 45+ Konga
 
 
 
-- [Click here to download the Power BI (.pbix) file](Sales%20dashboard.pbix)
+
 
 - [Download report](Konga-gro%20mart%20Retail%20analysis%20(1).pdf)
